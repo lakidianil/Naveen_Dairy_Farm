@@ -315,6 +315,65 @@ footer {
 #forwardButton:hover {
     background-color: #FF3D00;
 }
+/* Footer Styling */
+        footer {
+            background-color: #f0f2f5; /* Light background for the footer */
+            position: fixed; /* Fixed position at the bottom */
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            border-top: 2px solid #ccc;
+            padding: 10px 0;
+            z-index: 1000; /* Ensure it's above other content */
+            display: flex;
+            justify-content: space-between; /* Space between content */
+            align-items: center;
+        }
+
+        /* Footer Text Styling */
+        footer p {
+            margin: 0;
+            color: #333;
+            font-size: 14px;
+        }
+
+        /* Footer Image Styling */
+        footer img {
+            width: 40px; /* Smaller size for the footer image */
+            height: 40px; /* Square shape */
+            margin-left: 20px; /* Add spacing from text */
+            cursor: pointer;
+        }
+
+        /* Align footer items */
+        .footer-left {
+            flex: 1;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .footer-right {
+            flex: 1;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        /* Loading Animation Styling */
+        #loadingAnimation {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            border: 8px solid #f3f3f3; /* Light grey background */
+            border-top: 8px solid #3498db; /* Blue border */
+            border-radius: 50%;
+            animation: spin 2s linear infinite; /* Spin animation */
+        }
 
 
 
@@ -416,7 +475,10 @@ footer {
 <p>Address: #22/68, Balija Veedhi, Patha Kadapa, Kadapa, Andhra Pradesh</p>
         <p>Contact: +91 7661823999 , 8519955511|</p>
         <p>&copy; 2024 Naveen Dairy Farm Organic Milk. All rights reserved.</p>
-
+  </div>
+        <div class="footer-right">
+            <img src="https://i.postimg.cc/8C3c41rC/IMG-20241020-210255-removebg-preview.png" alt="Naveen Dairy Logo">
+        </div>
 </footer>
 
 
